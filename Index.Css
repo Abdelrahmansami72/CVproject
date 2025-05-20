@@ -1,0 +1,63 @@
+.carousel-item img {
+    height: 100vh; /* يخلي الصورة تاخد طول الشاشة بالكامل */
+    object-fit:cover ; /* يخلي الصورة تتناسب مع العرض والطول */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية سوداء شفافة */
+    padding: 20px;
+    border-radius: 10px;
+    color:antiquewhite; /* لون النص الأبيض */
+    text-align: left; /* محاذاة النص لليسار */
+  }
+  
+  .carousel-caption h5 {
+    font-size: 24px; /* تكبير العنوان */
+    font-weight: bold;
+  }
+
+ 
+  #BOOK{
+    border-radius: 50%;
+
+  }
+  #URL{
+ 
+  color: white;
+  }
+  .skills-container {
+    background: rgba(255, 255, 255, 0.1); /* شفاف قليلاً */
+    border: 2px solid rgba(255, 255, 255, 0.3)  ; /* إطار خفيف */
+    border-radius: 15px;
+    padding: 20px 40px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-left: 160px;
+
+}
+
+/* Skills section styling */
+.skills-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin: 20px 0;
+}
+
+.skill h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.skill p {
+    font-size: 1em;
+    color: #ddd;
+}
+
+.btn-secondary {
+  display: none;
+}
